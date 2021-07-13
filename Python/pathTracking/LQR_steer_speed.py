@@ -8,7 +8,7 @@ sys.path.append("../curves/")
 sys.path.append("../draw/")
 try:
     import cubic_spline_planner
-    import draw.drawCar as draw
+    # import draw.drawCar as draw
 except ImportError:
     raise
 """
